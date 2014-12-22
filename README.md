@@ -1,8 +1,7 @@
 GettingAndCleaningDataCourseProject
 ===================================
 
-# This project is a submission for the Course Project of
-# Getting and Cleaning Data http://class.coursera.org/getdata-016
+This project is a submission for the Course Project of Getting and Cleaning Data: http://class.coursera.org/getdata-016
   
 Files available in this package:
 
