@@ -1,4 +1,4 @@
-# Code book for data produced by steps 4 and 5 of `run_analysis.txt`
+### Code book for data produced by steps 4 and 5 of `run_analysis.txt`
 
 Step 4 produces a tidy dataset with four variables. The dimensions are "subject", "activity", and "variable". The measure is "value". Each row is a unique observation on "subject", "activity", and "variable".
 
