@@ -83,8 +83,8 @@ tidy <- melt(raw3, id=c("subject", "activity"), measure.vars=newFeatureNames)
 
 
 ### (5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-grouped <- group_by(tidy, subject, activity)
-tidySummarized <- summarise(grouped, mean=mean(variable))
+grouped <- group_by(tidy, subject, activity, variable)
+tidySummarized <- summarise(grouped, mean=mean(value))
 
 # Write tidySummarized to data/tidySummarized.txt
 write.table(tidySummarized, "data/tidySummarized.txt")
