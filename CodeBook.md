@@ -73,4 +73,4 @@ fBodyAccMagStd
 
 * value: This is the value of the variable for the given subject and activity.
 
-Step 5 produces a table which  has three columns: "subject", "activity", "variable", and "average". "subject", "activity", "variable" are the same as in Step 4, while "average" is the mean value of the variable for the given subject and activity. 
+Step 5 produces a table which  has three columns: "subject", "activity", "variable", and "average". "subject", "activity", "variable" are the same as in Step 4, while "average" is the mean value of the variable for the given subject, activity and variable. 
