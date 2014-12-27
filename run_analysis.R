@@ -3,11 +3,11 @@
 ### Description: Prepare tidy data.
 ### Author: sueyic@gmail.com
 
-library(Hmisc)
-library(dplyr)
 library(plyr)
 library(reshape2)
 library(stringr)
+library(Hmisc)
+library(dplyr)
 
 ### (1) Merge the training and the test sets to create one data set.
 
