@@ -7,7 +7,7 @@ Allowable values:
 
 * activity: There are 6 activities performed by test subjects: "walking", "walkingUpstairs", "walkingDownstairs", "sitting", "standing", "laying".
 
-* variable: Feature which represents a direct or derived measurement from the accelerometer or gyrometer. For details on the features, please see `data/features_info.txt`. There are in total 60 features, which are as follows. 
+* variable: Feature which represents a derived measurement from the accelerometer or gyrometer. For details on the features, please see `data/features_info.txt`. There are in total 60 features, which are as follows.
 <pre>
 tBodyAccMeanX
 tBodyAccMeanY
@@ -73,4 +73,4 @@ fBodyAccMagStd
 
 * value: This is the value of the variable for the given subject and activity.
 
-Step 5 produces a table which  has three columns: "subject", "activity", "variable", and "mean". "subject", "activity", "variable" are the same as in Step 4, while "mean" is the mean value of the variable for the given subject, activity and variable. 
+Step 5 produces a table which  has four columns: "subject", "activity", "variable", and "mean". "subject", "activity", "variable" are the same as in Step 4, while "mean" is the mean value of the variable for the given subject, activity and variable.
